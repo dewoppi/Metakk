@@ -1,0 +1,77 @@
+.langu {
+  background-color: #bfe4ae40;
+  padding: 20px 0;
+  justify-content: center;
+  text-align: center;
+  position: relative;
+  padding-bottom: 40px;
+  .title {
+    box-sizing: border-box;
+    margin-left: 135px;
+    padding: 0;
+    max-width: 74.33333%;
+    text-align: center;
+    img {
+      width: 100px;
+      height: 108px;
+    }
+    h2 {
+      margin: 20px 0 15px;
+      line-height: 36px;
+      font-size: 30px;
+      color: #121416;
+      font-family: "Montserrat", sans-serif;
+      font-weight: 500;
+    }
+    p {
+      text-align: center;
+      margin-top: 40px;
+      margin-bottom: 30px;
+      color: #212529;
+      font-size: 16.8px;
+    }
+    a {
+      cursor: pointer;
+      margin-bottom: 20px !important;
+      background: linear-gradient(to right, #ed1c24 0%, #ff6a5b 100%);
+      border: 0;
+      padding: 15px 45px;
+      font-size: 16px;
+      color: #fff;
+      font-weight: 400;
+      text-align: center;
+      line-height: 1.5;
+      border-radius: 0.25rem;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.14);
+      text-decoration: none;
+      &:hover {
+        background: linear-gradient(to right, #ff6a5b 0%, #ed1c24 100%);
+      }
+    }
+  }
+  ::before {
+    content: "";
+    display: block;
+    position: absolute;
+    background: url(https://www.metak.az/template/front/assets/images/bg/left-tree.webp)
+      no-repeat center;
+    background-size: cover;
+    left: 0;
+    bottom: 10px;
+    width: 209px;
+    height: 379px;
+    transform: translateY(0);
+  }
+  ::after {
+    content: "";
+    display: block;
+    position: absolute;
+    background: url(https://www.metak.az/template/front/assets/images/bg/right-tree.webp)
+      no-repeat center;
+    background-size: cover;
+    right: 0;
+    bottom: -30px;
+    width: 227px;
+    height: 453px;
+  }
+}

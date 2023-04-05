@@ -5,6 +5,7 @@ import Ourpro from "./Ourpro/Ourpro";
 import Services from "./Sevices/Services";
 import Langu from "./Langu/Langu";
 import News from "./News/News";
+import Last from "./Last/Last";
 
 const Home = () => {
   return (
@@ -15,6 +16,7 @@ const Home = () => {
       <Services />
       <Langu />
       <News />
+      <Last />
     </>
   );
 };

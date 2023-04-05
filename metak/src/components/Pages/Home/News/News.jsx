@@ -27,7 +27,7 @@ const News = () => {
           </div>
 
           <div className="row justify-content-center align-items-center">
-            <div className="col-md-12">
+            <div className="col-lg-2  ">
               <div className={styles.btn}>
                 <a href="https://www.metak.az/news">Bütün xəbərlər</a>
               </div>

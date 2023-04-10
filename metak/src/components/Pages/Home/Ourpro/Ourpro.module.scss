@@ -1,0 +1,25 @@
+header {
+  max-width: 1100px;
+
+  margin: 20px auto;
+  .our {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    .card_img {
+      width: 255px;
+      height: 289px;
+      img {
+        width: 255px;
+        height: 289px;
+        border-radius: 10px;
+        object-fit: cover;
+        object-position: center;
+      }
+      p {
+        font-size: 16px;
+        color: red;
+      }
+    }
+  }
+}
